@@ -1,0 +1,295 @@
+
+* {
+	margin:0 0 0 0;
+	padding:0 0 0 0;	
+}
+
+span {
+	margin:0 0 0 0;
+	padding: 0 0 0 0;	
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+    background-color:transparent;
+    padding: 0 0 0 0;
+    margin: 0 0 0 0;
+    overflow:visible;
+}
+
+.wrapper {
+	position:relative;
+    width: 100%;
+    height: 100%;
+    border:none;
+    overflow:visible;
+}
+
+.hidden {
+    display: block;
+    visibility: hidden;
+}
+
+#countdown-1.counter, #countdown-2.counter, #countdown-3.counter, #countdown-4.counter, #countdown-5.counter, #countdown-6.counter {
+		display:table;
+        width: 100% !important;
+        height: 100% !important;
+        background: none;
+        margin: 0 0 0 0;
+		padding: 0 0 0 0 !important;
+		border:none;
+		text-align:center;
+		overflow:visible;
+}
+
+#countdown-1.counter div {
+		position:relative;
+        background: none;
+		width:14.2% !important;
+		max-width:14.2% !important;
+		min-width:14.2% !important;
+		color:#000;
+		text-align:center;
+		float:left;
+}
+
+.counter div span {
+		position:absolute;
+		display:none;
+		visibility:hidden;
+		top:50%;
+		width:100%;
+		text-align:center;
+		opacity: 0.0 !important;
+    	filter: alpha(opacity=0) !important;
+		-webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+		-ms-transition: all 200ms ease-in-out;
+		-o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;
+			
+}
+
+.counter div span.visible {
+		display:block !important;
+		visibility:visible !important;
+		opacity: 1 !important;
+    	filter: alpha(opacity=100) !important;
+		-webkit-transition: all 200ms ease-in-out;
+		-moz-transition: all 200ms ease-in-out;
+		-ms-transition: all 200ms ease-in-out;
+		-o-transition: all 200ms ease-in-out;
+		transition: all 200ms ease-in-out;	
+}
+
+#countdown-2.counter div {
+        background: none;
+        position: relative;
+		width:13% !important;
+		max-width:13% !important;
+		color:#000;
+		text-align:center;
+		float:left;
+}
+
+#countdown-2.counter div {
+		-webkit-border-radius: 5px;
+		-moz-border-radius: 5px;
+		border-radius: 5px;
+		margin-left:2px;
+		-webkit-box-shadow: inset 0px 19px 51px -32px rgba(0,0,0,0.75);
+		-moz-box-shadow: inset 0px 19px 51px -32px rgba(0,0,0,0.75);
+		box-shadow: inset 0px 19px 51px -32px rgba(0,0,0,0.75);
+}
+
+#countdown-3.counter div {
+        background: none;
+        position: relative;
+		width:13% !important;
+		max-width:13% !important;
+		color:#000;
+		border-top:5px solid #dddddd;
+		border-bottom:5px solid #dddddd;
+		text-align:center;
+		overflow:visible;
+		float:left;
+}
+
+#countdown-3.counter div .custom_border {
+	position:absolute;
+	right:-1px;
+	top:0;
+	height:290%;
+	border:none !important;
+	width:2px !important;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 1%, rgba(255,255,255,0.4) 24%, rgba(255,255,255,0.4) 46%, rgba(255,255,255,0.4) 47%, rgba(255,255,255,0) 96%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,255,255,0)), color-stop(24%,rgba(255,255,255,0.4)), color-stop(46%,rgba(255,255,255,0.4)), color-stop(47%,rgba(255,255,255,0.4)), color-stop(96%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 1%,rgba(255,255,255,0.4) 24%,rgba(255,255,255,0.4) 46%,rgba(255,255,255,0.4) 47%,rgba(255,255,255,0) 96%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(255,255,255,0) 1%,rgba(255,255,255,0.4) 24%,rgba(255,255,255,0.4) 46%,rgba(255,255,255,0.4) 47%,rgba(255,255,255,0) 96%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(255,255,255,0) 1%,rgba(255,255,255,0.4) 24%,rgba(255,255,255,0.4) 46%,rgba(255,255,255,0.4) 47%,rgba(255,255,255,0) 96%,rgba(255,255,255,0) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(255,255,255,0) 1%,rgba(255,255,255,0.4) 24%,rgba(255,255,255,0.4) 46%,rgba(255,255,255,0.4) 47%,rgba(255,255,255,0) 96%,rgba(255,255,255,0) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+	z-index:100 !important;
+}
+
+
+#countdown-3.counter div.first {
+		border-left:5px solid #dddddd;
+}
+
+#countdown-3.counter div.last {
+		border-right:5px solid #dddddd;
+}
+
+#countdown-3.counter div span {
+	margin-right:1px;	
+}
+
+#countdown-4.counter div {
+        background: none;
+        position: relative;
+		width:13% !important;
+		max-width:13% !important;
+		color:#000;
+		text-align:center;
+		border-top:2px solid #c5c5c5;
+		border-bottom:2px solid #c5c5c5;
+		border-right:1px solid #c5c5c5;
+		margin-top:4px;
+		overflow:hidden;
+		float:left;
+}
+
+#countdown-4.counter div.first {
+		border-left:2px solid #c5c5c5;
+}
+
+#countdown-4.counter div.last {
+		border-right:2px solid #c5c5c5;
+}
+
+
+#countdown-5.counter div {
+        background: none;
+        position: relative;
+		width:14% !important;
+		max-width:14% !important;
+		color:#000;
+		font-weight:700;
+		text-align:center;
+		border:none;
+		overflow:hidden;
+		float:left;
+}
+
+#countdown-5.counter div .custom_border {
+	position:absolute;
+	right:0;
+	top:1px;
+	height:188%;
+	width:1px !important;
+	background: -moz-linear-gradient(top,  rgba(255,255,255,0) 1%, rgba(255,255,255,0.4) 24%, rgba(255,255,255,0.4) 46%, rgba(255,255,255,0.4) 47%, rgba(255,255,255,0) 96%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,rgba(255,255,255,0)), color-stop(24%,rgba(255,255,255,0.4)), color-stop(46%,rgba(255,255,255,0.4)), color-stop(47%,rgba(255,255,255,0.4)), color-stop(96%,rgba(255,255,255,0)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 1%,rgba(255,255,255,0.4) 24%,rgba(255,255,255,0.4) 46%,rgba(255,255,255,0.4) 47%,rgba(255,255,255,0) 96%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(255,255,255,0) 1%,rgba(255,255,255,0.4) 24%,rgba(255,255,255,0.4) 46%,rgba(255,255,255,0.4) 47%,rgba(255,255,255,0) 96%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(255,255,255,0) 1%,rgba(255,255,255,0.4) 24%,rgba(255,255,255,0.4) 46%,rgba(255,255,255,0.4) 47%,rgba(255,255,255,0) 96%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(255,255,255,0) 1%,rgba(255,255,255,0.4) 24%,rgba(255,255,255,0.4) 46%,rgba(255,255,255,0.4) 47%,rgba(255,255,255,0) 96%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+	
+}
+
+#countdown-5.counter div.first {
+		-webkit-border-top-left-radius: 10px;
+		-moz-border-top-left-radius: 10px;
+		border-top-left-radius: 10px;
+		-webkit-border-bottom-left-radius: 10px;
+		-moz-border-bottom-left-radius: 10px;
+		border-bottom-left-radius: 10px;
+}
+
+#countdown-5.counter div.last {
+		-webkit-border-top-right-radius: 10px;
+		-moz-border-top-right-radius: 10px;
+		border-top-right-radius: 10px;
+		-webkit-border-bottom-right-radius: 10px;
+		-moz-border-bottom-right-radius: 10px;
+		border-bottom-right-radius: 10px;
+}
+
+#countdown-6.counter div {
+		font-weight:100;
+        background: #000 url('images/tmp/metal_bg.png');
+        position: relative;
+		width:13% !important;
+		max-width:13% !important;
+		color:#000;
+		text-align:center;
+		border:none;
+		overflow:hidden;
+		float:left;
+		margin-left:2px;
+		-webkit-box-shadow: inset 19px -200px 66px -74px rgba(0,0,0,0.11);
+		-moz-box-shadow: inset 19px -200px 66px -74px rgba(0,0,0,0.11);
+		box-shadow: inset 19px -200px 66px -74px rgba(0,0,0,0.11);
+}
+
+#countdown-6.counter div span {
+  color: transparent;
+  text-shadow: 0px 2px 3px rgba(255,255,255,0.3);
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;	
+}
+
+#countdown-6.counter div.first {
+		-webkit-border-top-left-radius: 8px;
+		-moz-border-top-left-radius: 8px;
+		border-top-left-radius: 8px;
+		-webkit-border-bottom-left-radius: 8px;
+		-moz-border-bottom-left-radius: 8px;
+		border-bottom-left-radius: 8px;
+}
+
+#countdown-6.counter div.last {
+		-webkit-border-top-right-radius: 8px;
+		-moz-border-top-right-radius: 8px;
+		border-top-right-radius: 8px;
+		-webkit-border-bottom-right-radius: 8px;
+		-moz-border-bottom-right-radius: 8px;
+		border-bottom-right-radius: 8px;
+		margin-right:0px;
+}
+
+#preloader {
+	position:absolute;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background:#fff;
+	z-index: 9999;
+} 
+
+#preloader .loader {
+	position:absolute;
+	background:url('../images/preloader.GIF') no-repeat;
+	width:26px;
+	height:26px;
+	left:50%;
+	margin-left:-13px;
+	top:50%;
+	margin-top:-13px;
+}
+
+.clear {
+	height:0px !important;
+	width:0px !important;
+	clear:both !important;
+	border:0 !important;
+	margin:0 0 0 0 !important;
+	padding:0 0 0 0 !important;
+	outline:0 !important;
+	background:none !important;
+	float:none !important;
+}
